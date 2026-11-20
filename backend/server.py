@@ -275,7 +275,7 @@ def providers():
 
 # ------------------------------------------------------------------ voice (ElevenLabs TTS)
 ELEVEN_URL = "https://api.elevenlabs.io/v1/text-to-speech/{voice_id}"
-TAG_MODELS = ("eleven_v4_turbo", "eleven_v3_conversational")  # models that understand [audio tags]
+TAG_MODELS = ("eleven_v4_turbo", "eleven_v3", "eleven_v3_conversational")  # models that understand [audio tags]
 
 
 def voice_ready() -> bool:
